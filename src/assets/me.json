@@ -1,0 +1,19 @@
+{
+    "nombre": "Fco. Javier",
+    "apellidos": "Fernández Hernández",
+    "profesion": "Tecnico en Desarrollo Web e Informatico",
+    "empresas":[
+        {
+            "empresa": "Tertius",
+            "cargo": "Administrador de Sistemas",
+            "descripcion": "Administrar sistemas en linux, montar servidores web, y mantener la seguridad de los sistemas",
+            "duracion": "3 meses"
+        }
+    ],
+    "proyectos": [
+        {
+            "nombre": "Bots de Discord",
+            "descripcion": ""
+        }
+    ]
+}
