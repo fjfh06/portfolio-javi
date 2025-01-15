@@ -6,11 +6,59 @@ section{
     margin-right: auto;
     margin-left: auto;
 }
+.nombre{
+    font-size: 45px;
+    line-height: 100%;
+}
+.profesion{
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+.bio{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 .experiencia{
     margin-left: 160px;
     margin-right: 200px;
     margin-top: 20px;
     padding: 15px;
+    background-color: #ccc;
     border: 1px solid #ccc;
     border-radius: 16px;
+}
+.exp_titu{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.exp_fecha{
+    text-align: right;
+    font-size: 7px;
+    color: #666;
+    top: 100px;
+    margin-bottom: 10px;
+}
+.exp_descri{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.envoltura_habili{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.habilidad{
+    width: fit-content;
+    padding: 8px;
+    border: 1px red solid ;
+    border-radius: 16px;
+}
+.habilidad p{
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
 }
