@@ -6,3 +6,11 @@ section{
     margin-right: auto;
     margin-left: auto;
 }
+.experiencia{
+    margin-left: 160px;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+}
