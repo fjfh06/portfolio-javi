@@ -1,4 +1,5 @@
 ---
+layout: "../../layouts/Layout.astro"
 title: "Discord Hunter"
 description: "Este es un minijuego de un bot de discord"
 url: "http://localhost:4321/projects/disc_hunter"

@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
 interface Project {
 	title: string
 	description: string
@@ -9,25 +12,14 @@ const projects = await Astro.glob<Project>('../pages/projects/*.md');
 ---
 
 <Layout>
-
-	<section>
+	<Header />
+	<section id="inicio">
 	<h1 class="nombre">{meData.nombre}</h1>
 	<h2 class="profesion">{meData.profesion}</h2>
 	<h3 class="bio">{meData.bio}</h3>
 	</section>
 
-	<section>
-		<h4>Experiencia:</h4>
-		  {meData.experiencia.map((exp, index) => (
-			<article class="experiencia">
-				<h3 class="exp_titu">{exp.nombre}</h3>
-				<p class="exp_descri">{exp.descripcion}</p>
-				<h4 class="exp_fecha">{exp.fecha}</h4>
-			</article>
-		  ))}
-	</section>
-
-	<section>
+	<section id="proyecto">
 		<h4>Proyectos:</h4>
 		  {projects.map((project) => (
 			<a href={project.url} target="_blank" class="enlace-proyecto">
@@ -39,7 +31,18 @@ const projects = await Astro.glob<Project>('../pages/projects/*.md');
 		  ))}
 	</section>
 	
-	<section>
+	<section id="experiencia">
+		<h4>Experiencia:</h4>
+		  {meData.experiencia.map((exp, index) => (
+			<article class="experiencia">
+				<h3 class="exp_titu">{exp.nombre}</h3>
+				<p class="exp_descri">{exp.descripcion}</p>
+				<h4 class="exp_fecha">{exp.fecha}</h4>
+			</article>
+		  ))}
+	</section>
+
+	<section id="habilidades">
 		<h4>Habilidades:</h4>
 		<div class="envoltura_habili">
 	  {meData.habilidades.map((habilidad, index) => (
@@ -50,4 +53,5 @@ const projects = await Astro.glob<Project>('../pages/projects/*.md');
 	  </div>
 	</section>
 	
+	<Footer />
   </Layout>
