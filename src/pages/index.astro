@@ -20,7 +20,7 @@ const projects = await Astro.glob<Project>('../pages/projects/*.md');
 	</section>
 
 	<section id="proyecto">
-		<h4>Proyectos:</h4>
+		<h2>Proyectos:</h2>
 		  {projects.map((project) => (
 			<a href={project.url} target="_blank" class="enlace-proyecto">
 				<article class="proyecto">
@@ -32,7 +32,7 @@ const projects = await Astro.glob<Project>('../pages/projects/*.md');
 	</section>
 	
 	<section id="experiencia">
-		<h4>Experiencia:</h4>
+		<h2>Experiencia:</h2>
 		  {meData.experiencia.map((exp, index) => (
 			<article class="experiencia">
 				<h3 class="exp_titu">{exp.nombre}</h3>
@@ -43,7 +43,7 @@ const projects = await Astro.glob<Project>('../pages/projects/*.md');
 	</section>
 
 	<section id="habilidades">
-		<h4>Habilidades:</h4>
+		<h2>Habilidades:</h2>
 		<div class="envoltura_habili">
 	  {meData.habilidades.map((habilidad, index) => (
 		<article class="habilidad">
