@@ -1,25 +1,25 @@
 {
     "nombre": "Francisco Javier Fernández Hernández",
-    "profesion": "Tecnico en Desarrollo Web e Informatico",
-    "bio": "Soy Desarrollador Web, tambien soy tecnico en sistemas microinformaticos y redes, soy estudiante del IES Hermenegildo Lanz en Granada",
+    "profesion": "Técnico en Desarrollo Web e Informático",
+    "bio": "Soy Desarrollador Web, también soy técnico en sistemas microinformáticos y redes, soy estudiante del IES Hermenegildo Lanz en Granada",
     "experiencia": [
         {
             "nombre": "Servidor Web",
-            "descripcion": "Creacion de un servidor web en mi Raspberry Pi 5",
+            "descripcion": "Creación de un servidor web en mi Raspberry Pi 5",
             "fecha": "20 de marzo de 2024 - Actualidad"
         },
         {
             "nombre": "Servidor VPN",
-            "descripcion": "Creacion de un servidor VPN en mi Raspberry Pi 5",
+            "descripcion": "Creación de un servidor VPN en mi Raspberry Pi 5",
             "fecha": "13 de junio de 2024 - Actualidad"
         },
         {
             "nombre": "Servidor de Bots de Discord",
-            "descripcion": "Creacion de un servidor de Bots de Discord en mi Raspberry",
+            "descripcion": "Creación de un servidor de Bots de Discord en mi Raspberry",
             "fecha": "20 de marzo de 2024 - Actualidad"
         }
     ],
-    "habilidades":[
+    "habilidades": [
         "HTML5",
         "CSS3",
         "JavaScript",
@@ -39,7 +39,7 @@
         "Windows",
         "Desarrollo Web",
         "Desarrollo de Software",
-        "Sistemas Microinformaticos",
+        "Sistemas Microinformáticos",
         "Redes",
         "Tecnologías de la Información y Comunicación"
     ]

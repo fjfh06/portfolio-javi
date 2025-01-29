@@ -3,31 +3,48 @@ import Instagram from "./icons/Instagram.astro";
 import Github from "./icons/Github.astro";
 import Linkedin from "./icons/Linkedin.astro";
 ---
+
 ---
 <footer>
   <nav>
     <ul>
-      <li><a href=""><Instagram /></a></li>
-      <li><a href=""><Github /></a></li>
+      <li>
+        <a href="https://www.instagram.com/jaavii0.6/" target="_blank"
+          ><Instagram /></a>
+      </li>
+      <li>
+        <a href="https://github.com/fjfh06" target="_blank"><Github /></a>
+      </li>
       <li><a href=""><Linkedin /></a></li>
     </ul>
+    <h5>Creado por fjfh</h5>
   </nav>
-  </footer>
-  <style>
-    footer {
-      width: 100%;
-      background-color: black;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    ul {
-      width: fit-content;
-      padding: 16px;
-      display: flex;
-      flex-direction: row;
-      gap: 16px;
-      align-items: center;
-    }
-  </style>
+</footer>
+<style>
+  footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  ul {
+    width: fit-content;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    list-style: none;
+    margin-left: -5px; 
+  }
+</style>
