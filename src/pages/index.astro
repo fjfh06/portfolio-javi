@@ -14,9 +14,11 @@ const projects = await Astro.glob<Project>('../pages/projects/*.md');
 <Layout>
 	<Header />
 	<section id="inicio">
-	<h1 class="nombre">{meData.nombre}</h1>
-	<h2 class="profesion">{meData.profesion}</h2>
-	<h3 class="bio">{meData.bio}</h3>
+		<div>
+			<h1 class="nombre">{meData.nombre}</h1>
+			<h2 class="profesion">{meData.profesion}</h2>
+			<h3 class="bio">{meData.bio}</h3>
+		</div>
 	</section>
 
 	<section id="proyecto">

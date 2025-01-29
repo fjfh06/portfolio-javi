@@ -3,7 +3,6 @@ html{
     scroll-behavior: smooth;
 }
 section{
-
     max-width: 900px;
     margin-right: auto;
     margin-left: auto;
@@ -12,6 +11,12 @@ section{
 section h4{
     font-size: 15px;
     margin-bottom: 10px;
+}
+#inicio div{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    text-align: center;
 }
 .nombre{
     font-size: 45px;
